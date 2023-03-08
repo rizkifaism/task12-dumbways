@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-color {
+  background-color: #e3e7eb;
+}
+
+.primary {
+  background-color: #111727;
+}
+
+.card-wrap {
+  margin-bottom: 100px;
+}
+
+.contact {
+  margin: 20px 0px;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sosmed i {
+  text-align: center;
+  padding: 5px;
+}
+
+.linkedin {
+  padding: 5px 6px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.ig {
+  padding: 5px 6px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.fb {
+  padding: 5px 8px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.twitter {
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.back-to-top {
+  background-color: #111727;
+  border-radius: 50%;
+  padding: 10px 12px;
+  transition: 0.7s ease-in-out;
+  color: #fff;
+  bottom: 1rem;
+  right: 1rem;
+  position: fixed;
+  visibility: hidden;
+}
+
+.back-to-top:hover {
+  background-color: #2b3a61;
+}
+
+.back-to-top i {
+  padding: 10px;
+}
